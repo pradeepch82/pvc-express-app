@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <title> Login Page </title>
+ </head>
+ <body bgcolor="orange">
+ <div align="center">
+
+<form action="upload" method="post" target="result"
+enctype="multipart/form-data">
+
+    Welcome To File Upload  Page <br/><br/>
+
+    Upload Resume: <input type="file" name="resume" > <br>
+
+    <br/><br/>
+
+<input type="submit"  name="action" value="Upload">
+</form>
+<hr/>
+
+<form action="upload/multiple" method="post" target="result"
+enctype="multipart/form-data">
+
+    Welcome To Multi File Upload  Page <br/><br/>
+
+    Upload Photos: <input type="file" name="photos" multiple> <br>
+
+    <br/><br/>
+
+<input type="submit"  name="action" value="Upload Files">
+</form>
+
+
+
+<iframe  name="result" src="" width="200" height="200">
+</iframe>
+
+
+</div>
+</body>
+</html>
